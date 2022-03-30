@@ -1,0 +1,97 @@
+/* @font-face {
+    font-family: charter;
+    src: url(../fonts/fonts/charter-regular.otf);
+    font-style: normal;
+    font-weight: 400;
+} */
+
+
+:root {
+    font-size: 16px;
+    --gray30: #212121;
+    --gray20: #212429;
+    --gray10: #616161;
+
+}
+
+body{
+    color: var(--gray30);
+    /* font-family: charter; */
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: var(--gray30);
+}
+
+header{
+    font-size: 14px;
+    color: var(--gray10);
+}
+
+header a{
+    color: var(--gray10);
+    text-decoration: none;
+}
+
+nav details summary {
+    font-weight: bold;
+}
+
+header a:hover{
+    color: var(--gray30);
+}
+
+
+h1 {
+    font-size: 60px;
+    /*font-size: 3.75em;*/
+    margin: 64px 0 16px 0;
+}
+
+
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1,5em;
+}
+
+pre {
+    background: #FEC62E;
+}
+
+.hero {
+    background: linear-gradient(to top,  rgba(255,255,255,0.3), transparent), url(/img/patron-1.png);
+    height: 350px;
+    width: 100%;
+}
+
+h3 {
+    counter-increment: titleList;
+}
+
+.section-content {
+    counter-reset: titleList;
+}
+
+.section-content h3::before {
+    content: counter(titleList, decimal) "." " ";
+}
+
+h3::after { 
+    content: "";
+    display:inline-block;
+    width: 32px;
+    height: 4px;
+    background: var(--gray30);
+} 
+
+
+/* h1::selection {
+    background-color: red;
+    color: blue;
+} */
+

@@ -1,0 +1,71 @@
+/* ¿Que es CSS? Cascading Style Sheets = Lenguaje de ESTILOS. */
+
+/* SELECTORES */
+
+
+/* USER AGENT STYLE */
+
+
+/* COLORES */
+
+
+/* VALORES Y UNIDADES */
+
+
+/* PSEUDOCLASES */
+
+
+/* CUSTOM PROPERTIES */
+
+
+/* TIPOGRAFIA */
+
+
+/* BACKGROUND */
+
+
+/* PSEUDOELEMENTOS */
+
+
+/* CREAR COUNTERS */
+
+
+/* MODELO DE CAJA */
+
+
+/* PROPIEDADES Y VALORES FISICOS */
+
+    /* Margenes */
+        /* Body= Margen predeterminado de 8px
+        margin = Propiedad para modificar margenes 
+            PRIMER FORMA DE MODIFICAR MARGENES:
+                margin-top:64px; = Propiedad que le da un valor de 64 pixels al margen superior
+                margin-bottom:64px; = Propiedad que le da un valor de 64 pixels al margen inferior
+                margin-right:10px; = Propiedad que le da un valor de de 10 pixels al margen derecho
+                margin-left: 10px; = Propiedad que le da un valor de 10 pixels al margen izquierdo
+            SEGUNDA FORMA DE MODIFICAR MARGENES
+                margin: top right bottom left; = Declarar margenes para cada lado con tan solo una linea de codigo y una propiedad
+                    EJEMPLO:
+                        margin: 64px 10px 16px 32px; = Propiedad que da un valor de 64 pixels al margen de arriba - 10 pixels al margen de la derecha - 16 pixels al margen inferior - 32 pixels al margen izquierdo
+                        OTROS CASOS
+                            margin: 32px 10px 23px; =  Propiedad que da un valor de 32 pixels al margen superior - 10 pixels al margen derecho e izquierdo - 23 pixels al margen inferior
+        HTML da margenes predeterminados a los elementos, estos margenes pueden verse desde el panel de inspeccionar en el apartado de Styles
+        Cuando el valor es 0 no es necesario especificar nada, puesto que es un valor inexistente (NADA)
+        */
+        /* Margenes */
+
+ /* PROPIEDADES Y VALORES FISICOS */
+
+/* PROPIEDADES Y VALORES LOGICOS */
+
+
+/* NOTAS EXTRA */
+
+    /* <q></q> = Crear un quote en linea (Especificar una citacion en la semantica del dcumento) 
+    <blockquote></blockquote = Crear un quote en bloque (Especificar una citacion en la semantica del documento)>*/
+
+    /* display: none; propiedad de ocultar un elemento en el website, pero exsite en el HTML */
+
+    /* line-height: valor; propiedad para modificar el interlineado en un texto */
+
+    /* NOTAS EXTRA */
